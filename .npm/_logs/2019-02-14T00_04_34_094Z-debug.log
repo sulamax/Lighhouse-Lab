@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vagrant/.nvm/versions/node/v8.9.4/bin/node',
+1 verbose cli   '/home/vagrant/.nvm/versions/node/v8.9.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'git-it' ]
+2 info using npm@6.7.0
+3 info using node@v8.9.4
+4 verbose npm-session 84d10dc7bfb7f703
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData error for git-it@latest request to https://registry.npmjs.org/git-it failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+8 timing stage:rollbackFailedOptional Completed in 9ms
+9 timing stage:runTopLevelLifecycles Completed in 20177ms
+10 verbose type system
+11 verbose stack FetchError: request to https://registry.npmjs.org/git-it failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+11 verbose stack     at ClientRequest.req.on.err (/home/vagrant/.nvm/versions/node/v8.9.4/lib/node_modules/npm/node_modules/node-fetch-npm/src/index.js:68:14)
+11 verbose stack     at emitOne (events.js:116:13)
+11 verbose stack     at ClientRequest.emit (events.js:211:7)
+11 verbose stack     at TLSSocket.socketErrorListener (_http_client.js:387:9)
+11 verbose stack     at emitOne (events.js:116:13)
+11 verbose stack     at TLSSocket.emit (events.js:211:7)
+11 verbose stack     at emitErrorNT (internal/streams/destroy.js:64:8)
+11 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+11 verbose stack     at process._tickCallback (internal/process/next_tick.js:180:9)
+12 verbose cwd /vagrant
+13 verbose Linux 4.4.0-87-generic
+14 verbose argv "/home/vagrant/.nvm/versions/node/v8.9.4/bin/node" "/home/vagrant/.nvm/versions/node/v8.9.4/bin/npm" "install" "-g" "git-it"
+15 verbose node v8.9.4
+16 verbose npm  v6.7.0
+17 error code EAI_AGAIN
+18 error errno EAI_AGAIN
+19 error request to https://registry.npmjs.org/git-it failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org:443
+20 verbose exit [ 1, true ]
